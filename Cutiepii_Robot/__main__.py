@@ -98,12 +98,12 @@ async def awake(event):
   CUTIEPII = "**♡ I,m Cutiepii Robot 愛** \n\n"
   CUTIEPII += "**♡ I'm Working With Awesome Speed**\n\n"
   CUTIEPII += "**♡ Cutiepii: LATEST Version**\n\n"
-  CUTIEPII += "**♡ My Creator:** [Rajkumar](t.me/Awesome_RJ)\n\n"
+  CUTIEPII += "**♡ My Creator:** [ℭ𝐒 ‣ ᏂᎧᏇᏝ⚡//](t.me/iAmLiKu1\n\n"
   CUTIEPII += "**♡ python-Telegram-Bot: 13.7**\n\n"
   CUTIEPII_BUTTON = [
       [
           Button.url("🚑 Support", f"https://t.me/{SUPPORT_CHAT}"),
-          Button.url("📢 Updates", "https://t.me/Black_Knights_Union")
+          Button.url("📢 Updates", "https://tme/cs_cloud")
       ]
   ]
   await telethn.send_file(
@@ -174,7 +174,7 @@ buttons = [
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                        InlineKeyboardButton(
                              text="📢 Updates",
-                             url="https://t.me/Black_Knights_Union")
+                             url="https://t.me/cs_cloud")
                      ], 
     ]
 
@@ -314,7 +314,7 @@ def start(update: Update, context: CallbackContext):
                   InlineKeyboardButton(text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}")
                   ],
                   [
-                  InlineKeyboardButton(text="📢 Updates", url="https://telegram.dog/Black_Knights_Union")
+                  InlineKeyboardButton(text="📢 Updates", url="https://telegram.dog/cs_cloud")
                   ]
                 ]
             ),
